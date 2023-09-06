@@ -1,0 +1,11 @@
+No campo da engenharia de dados, os termos "transient", "raw", "trusted" e "refined" são frequentemente usados para descrever diferentes estágios de processamento de dados em um pipeline de dados. Aqui está uma definição geral para cada um desses estágios:
+
+1. Transient (Transitório): Nesta fase inicial, os dados são adquiridos ou capturados de diversas fontes, como feeds de streaming, bancos de dados, arquivos de log, APIs, entre outros. Esses dados podem ser brutos ou ter algum formato inicial, mas ainda não foram processados ou validados.
+
+2. Raw (Bruto): Nesta fase, os dados são armazenados em seu formato original, sem transformações significativas. Os dados brutos são mantidos de forma durável, geralmente em um repositório de armazenamento de dados, como um sistema de arquivos distribuído ou um data lake. Essa camada de dados fornece uma fonte confiável e rastreável para análises e processamento posterior.
+
+3. Trusted (Confiança): Nesta fase, os dados brutos passam por processos de limpeza, validação e transformação para garantir sua qualidade e integridade. Esses processos podem incluir a remoção de dados inválidos ou duplicados, a normalização de formatos, a aplicação de regras de negócio e a agregação de dados relacionados. Os dados confiáveis são geralmente armazenados em um formato mais estruturado, como um banco de dados relacional ou um data warehouse, e estão prontos para uso em análises avançadas.
+
+4. Refined (Refinado): Nesta fase final, os dados confiáveis são refinados ainda mais para atender a necessidades específicas de negócio ou aplicativos. Isso pode envolver a aplicação de algoritmos de aprendizado de máquina, a criação de agregações resumidas, a geração de relatórios, a criação de painéis de controle interativos e assim por diante. Os dados refinados são projetados para serem facilmente consumidos por usuários finais ou aplicativos e geralmente são entregues por meio de APIs, interfaces de usuário ou outros meios de acesso.
+
+É importante notar que esses estágios são conceituais e podem variar dependendo do contexto e dos requisitos específicos de cada projeto ou organização. No entanto, eles fornecem uma estrutura útil para entender a evolução dos dados à medida que são processados e preparados para uso em diferentes etapas do pipeline de dados.
